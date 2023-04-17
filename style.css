@@ -1,0 +1,12 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#ProductPageNav
+{
+    font-family: "Varela Round", sans-serif;
+    margin-top: 2rem;
+}
