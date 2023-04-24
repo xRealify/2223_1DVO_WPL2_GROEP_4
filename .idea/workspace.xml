@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2811e3bd-c685-4ef6-b087-98f80d026546" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/productlist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/productpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/winkelmandje.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/productpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/winkelmandje.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,17 +33,8 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/12200748/Documents/webstorm/wpl2/2223_1DVO_WPL2_GROEP_4/css",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\12200748\Documents\webstorm\wpl2\2223_1DVO_WPL2_GROEP_4\css" />
