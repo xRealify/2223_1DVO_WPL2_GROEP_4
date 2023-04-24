@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2811e3bd-c685-4ef6-b087-98f80d026546" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,19 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/12200748/Documents/webstorm/wpl2/2223_1DVO_WPL2_GROEP_4/bootstrap&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12200748\Documents\webstorm\wpl2\2223_1DVO_WPL2_GROEP_4\css" />
+      <recent name="C:\Users\12200748\Documents\webstorm\wpl2\2223_1DVO_WPL2_GROEP_4" />
       <recent name="C:\Users\12200748\Documents\webstorm\wpl2\2223_1DVO_WPL2_GROEP_4\bootstrap" />
     </key>
   </component>
@@ -62,7 +54,32 @@
       <workItem from="1681800867150" duration="885000" />
       <workItem from="1681801769529" duration="404000" />
       <workItem from="1682338625290" duration="686000" />
+      <workItem from="1682342159884" duration="465000" />
+      <workItem from="1682342637479" duration="365000" />
+      <workItem from="1682343014301" duration="100000" />
     </task>
+    <task id="LOCAL-00001" summary="Taro">
+      <created>1682342287708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682342287709</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Taro">
+      <created>1682342695213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682342695214</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Taro">
+      <created>1682342726716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682342726716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Taro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Taro" />
   </component>
 </project>
