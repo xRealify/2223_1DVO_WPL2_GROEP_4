@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icon1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffe8cc;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m519.1,999.02h0c250.5,0,453.87,203.37,453.87,453.87v368.86H65.23v-368.86c0-250.5,203.37-453.87,453.87-453.87Z"/>
+  <path class="cls-1" d="m1466.06,1365h0c226.64,0,410.64,184,410.64,410.64v46.11h-821.29v-46.11c0-226.64,184-410.64,410.64-410.64Z"/>
+  <circle class="cls-1" cx="519.1" cy="510.05" r="411.8"/>
+  <circle class="cls-1" cx="1466.06" cy="916.89" r="365.98"/>
+</svg>
