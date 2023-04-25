@@ -2,36 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KIDFIT - Log in/sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script defer src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../../Desktop/Website%20WPL2/style.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="navbar">
-            <a href="index.html"><img src="assets/logo.svg" class="logomain" alt="logo"> </a>
-            <nav>
-                <ul id="menubar">
-                    <li><a href="aboutme.html">Diensten</a></li>
-                    <li><a href="portfolio.html">Webshop</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <button>Inloggen</button>
+<!-- Header code-->
+<nav id="ProductPageNav">
+    <div class="row justify-content-center">
+        <div class="col-md-4" id="logo">
+            <img src="../../../../Desktop/Website%20WPL2/assets/logo.svg" alt="logo">
+        </div>
+
+        <div class="col-md-1">
+            <p>Home</p>
+        </div>
+        <div class="col-md-1">
+            <p>Diensten</p>
+        </div>
+        <div class="col-md-1">
+            <p><u>Webshop</u></p>
+        </div>
+        <div class="col-md-1">
+            <p>Contact</p>
+        </div>
+
+        <div class="col-md-4" id="inlogknop">
+            <p>Inloggen</p>
         </div>
     </div>
-</header>
+</nav>
+<!-- Page itself-->
+<main class="container-fluid LoginPage">
+    <div class="row justify-content-evenly" >
+        <h1>Inloggen als:</h1>
+        <hr class="align-content-center">
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-3 " >
+            <div class="p-8">
+                <img src="../../../../Desktop/Website%20WPL2/assets/Icon-login-zorgverlener.svg" class="rounded mx-auto d-block" alt="Het icoontje voor zorgverleners om in te loggen">
+                <h4>Zorgverlener</h4>
+            </div>
+        </div>
+        <div class="col-md-1 offset-md-1">
+            <div class="p-8">
+                <img src="../../../../Desktop/Website%20WPL2/assets/Icon-login-Ouder.svg" class="rounded mx-auto d-block" alt="Het icoontje voor ouders om in te loggen">
+                <h4>Ouder</h4>
+            </div>
+
+        </div>
+    </div>
+</main>
+<!-- Footer code-->
 <footer>
     <div class="row justify-content-center">
         <div class="col-md-3">
         </div>
 
         <div class="col-md-6">
-            <p>Copyright Â© 2023 kidfit.be. All Rights Reserved.</p>
+            <p>Copyright © 2023 kidfit.be. All Rights Reserved.</p>
         </div>
 
         <div class="col-md-1">
