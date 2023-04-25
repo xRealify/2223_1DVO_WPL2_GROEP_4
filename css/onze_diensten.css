@@ -45,7 +45,8 @@ div #logo img[src="assets/color.svg"]
     width: 60px;
     height: 55px;
     padding-top: 1rem;
-    margin-left: 12rem;
+    margin-left: 1rem;
+
 }
 
 main
@@ -53,10 +54,6 @@ main
     background-color: #FFE8CC;
     height: 38.9rem;
 
-}
-
-h1{
-    color: #FFE8CC;
 }
 
 footer
@@ -85,10 +82,7 @@ div img[src="assets/Group%2041.png"]
 aside{
     float: right;
 }
-p{
-    float: right;
-    width: 800px;
-}
+
 #de\ uitleg
 {
     height: 10rem;
@@ -99,28 +93,80 @@ p{
     text-align: center;
     bottom: 8rem;
 }
-#vakjes{
-    color: black;
-    align-items: start;
-    width: 200px;
-    height: 200px;
-}
 #vak1{
     background-color: #34765E;
     align-items: start;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
 }
 #vak2{
     background-color: #34765E;
+    text-align: center;
+    width: 200px;
+    height: 200px;
 
 }
 #vak3{
     background-color: #34765E;
+    text-align: center;
+    width: 200px;
+    height: 200px;
 
 }
 #vak4{
     background-color: #34765E;
+    text-align: center;
+    width: 200px;
+    height: 200px;
 
 }
 #k{
     text-align: right;
+}
+h2{
+    color: #34765E;
+    text-align: right;
+}
+h6{
+    color: #34765E;
+    text-align: right;
+}
+#wat{
+    text-align: center;
+    color: #34765E;
+}
+#vier{
+    align-items: center;
+}
+#info{
+    text-align: center;
+    color: #34765E;
+}
+img[src="assets/apple_play_store.PNG"]{
+    width: 400px;
+    float: right;
+}
+h5{
+    color: #FFE8CC;
+    background-color: #34765E;
+}
+
+h1{
+    color: #34765E;
+}
+h4{
+    color:#FFE8CC;
+}
+img[src="assets/Vector.png"]{
+    width: 100px;
+}
+img[src="assets/Vector1.png"]{
+    width: 100px;
+}
+img[src="assets/Vector2.png"]{
+    width: 100px;
+}
+img[src="assets/Vector3.png"]{
+    width: 100px;
 }

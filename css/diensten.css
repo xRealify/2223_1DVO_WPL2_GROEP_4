@@ -46,6 +46,7 @@ div #logo img[src="afbeeldingen/logo.svg"]
     height: 55px;
     padding-top: 1rem;
     margin-left: 12rem;
+    text-align: right;
 }
 
 main
@@ -121,4 +122,3 @@ p{
 #k{
     text-align: right;
 }
-#lm
