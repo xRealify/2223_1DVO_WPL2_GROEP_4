@@ -1,0 +1,66 @@
+/* algemene css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #FFF5EA;
+    margin: 0 auto;
+}
+
+/* specifieke css */
+main .container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+}
+
+.logomain {
+    width: 60px;
+    cursor: pointer;
+    margin-left: 90px;
+    padding: 10px;
+}
+
+
+nav {
+    flex: 1;
+    text-align: center;
+    margin: 0 auto;
+}
+button {
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
