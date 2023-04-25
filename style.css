@@ -24,7 +24,7 @@ main .container {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #198754;
+    background-color: #34765E;
 }
 
 .logomain {
@@ -43,7 +43,7 @@ nav {
 button {
     background-color: #FFF5EA;
     border: none;
-    color: #198754;
+    color: #34765E;
     padding: 10px 20px;
     text-align: right;
     text-decoration: none;
@@ -63,4 +63,22 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+footer
+{
+    font-family: "Varela Round", sans-serif;
+    background-color: #34765E;
+    height: 5rem;
+}
+
+.col-md-6 p
+{
+    color: #FFE8CC;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+div .col-md-1 svg
+{
+    margin-top: 1.5rem;
 }
