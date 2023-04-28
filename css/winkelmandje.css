@@ -1,128 +1,136 @@
-*
-{
-    padding: 0;
+* {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #FFF5EA;
+    margin: 0 auto;
+}
+
+/* specifieke css */
+main .container {
     width: 100%;
+    min-height: 80vh;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-#ProductPageNav
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #198754;
 }
 
-nav #inlogknop
-{
-    background-color: #FFE8CC;
-    border-radius: 5px;
-    height: 2.5rem;
-    width: 10rem;
-    margin: 1.2rem 11rem;
-    line-height: 0;
-
-}
-
-nav #inlogknop  p
-{
-    color:  #34765E !important;
-    text-align: center;
-    font-size: 17px;
-    padding-top: 1.3rem;
-
-}
-
-nav .col-md-1 p
-{
-    color:  #FFE8CC;
-    padding-top: 1.5rem;
-
-}
-
-div #logo img[src="assets/logo.svg"]
-{
+.logomain {
     width: 60px;
-    height: 55px;
-    padding-top: 1rem;
-    margin-left: 12rem;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 10px;
 }
 
-main
+
+nav {
+    flex: 1;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+img[src="assets/mockup.png"]
 {
-    background-color: #FFE8CC;
-    height: 38.9rem;
+    width: 400px;
+    height: 400px;
+    padding-top: 5rem;
+    padding-left: 22rem;
+
 }
 
-main .col-md-7
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+main div #image
 {
-    background-color: #34765E;
-    margin-top: 4rem;
-    border-radius: 25px;
-    height: 25rem;
-    width: 20rem;
-    margin-left: 20rem;
+ width: 50%;
+    float: left;
 }
 
-main .col-md-7 svg
+main div #info
 {
-    width: 150px;
-    height: 150px;
-    margin-left: 4.5rem;
-    margin-top: 7.5rem;
+    width: 50%;
+    float: right;
 }
 
-main .col-md-5
+main div ul li
 {
-    margin-top: 6rem;
+ color: #198754;
+ margin-left: 3rem;
+ list-style-type: none;
+    padding-top: 3.5rem;
 }
 
-main .col-md-5 h2
+main div ul li h1
 {
     font-family: "Concert One", sans-serif;
-    color: #34765E;
 }
 
-main .col-md-5 p
+main div ul li h1
 {
-    font-family: "Varela Round", sans-serif;
-    color: #34765E;
+    font-family: "Concert One", sans-serif;
 }
 
-main .col-md-1
+#winkelwagen p
 {
-    background-color: #34765E;;
-    color: #34765E !important;
-    margin-top: 4rem;
+    background-color: #198754;
+    color: #FFF5EA;
     width: 17rem;
-    height: 3rem;
-    border-radius: 10px;
-}
-
-main .col-md-1 p
-{
-    font-family: "Varela Round", sans-serif;
-    color: #FFE8CC;
+    height: 1.2rem;
+    padding: 10px 20px;
+    text-align: center;
     font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+    margin-left: 40rem;
+}
+
+
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+footer ul li p
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
     text-align: center;
-    padding-top: 0.7rem;
-}
-
-footer
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
-}
-
-.col-md-6 p
-{
-    color: #FFE8CC;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-div .col-md-1 svg
-{
-    margin-top: 1.5rem;
+    padding-left: 15rem;
 }
