@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323f24c7-a9fb-417a-b581-f285e4ec98a0" name="Changes" comment="Contact Page">
-      <change afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+    <list default="true" id="ebb35d06-7965-4fb5-a47b-23dc70244719" name="Changes" comment="Homepage main fix">
+      <change afterPath="$PROJECT_DIR$/assets/fb_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/ig_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/yt_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +48,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "list.type.of.created.stylesheet": "CSS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Musta\Documents\GitHub\2223_1DVO_WPL2_GROEP_4\css" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="323f24c7-a9fb-417a-b581-f285e4ec98a0" name="Changes" comment="Contact Page" />
+      <changelist id="ebb35d06-7965-4fb5-a47b-23dc70244719" name="Changes" comment="Homepage main fix" />
       <created>1681733955878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -66,6 +77,9 @@
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
       <workItem from="1683010224249" duration="8065000" />
+      <workItem from="1683029692263" duration="45000" />
+      <workItem from="1683029827584" duration="69000" />
+      <workItem from="1683032772069" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="Contact Page">
       <created>1683018937973</created>

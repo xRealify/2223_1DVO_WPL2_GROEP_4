@@ -1,0 +1,27 @@
+.footer {
+    background-color: #34765E;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.footer_text p {
+    align-items: center;
+    color: #FFE8CC;
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
