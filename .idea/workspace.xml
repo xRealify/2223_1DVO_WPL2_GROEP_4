@@ -4,8 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb35d06-7965-4fb5-a47b-23dc70244719" name="Changes" comment="Contact Page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +14,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homepage" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +41,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2811e3bd-c685-4ef6-b087-98f80d026546" name="Changes" comment="" />
+      <changelist id="323f24c7-a9fb-417a-b581-f285e4ec98a0" name="Changes" comment="Contact Page" />
       <created>1681733955878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -55,7 +53,16 @@
       <workItem from="1682342159884" duration="465000" />
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
+      <workItem from="1683010224249" duration="8065000" />
     </task>
+    <task id="LOCAL-00001" summary="Contact Page">
+      <created>1683018937973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683018937973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Contact Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Page" />
   </component>
 </project>

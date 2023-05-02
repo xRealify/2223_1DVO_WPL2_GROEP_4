@@ -9,29 +9,67 @@
     <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
 
     <link rel="stylesheet" href="css/contact.css">
-
+    <link rel="stylesheet" href="css/navbar.css">
 
 </head>
 <body>
 
-    <h1 class="title_contact">Contacteer ons</h1>
-    <h3 class="text_contact">Wij zijn er voor jou! Waar kunnen we u mee helpen?</h3>
+
+<h1 class="title_contact">Contacteer ons</h1>
+<h3 class="text_contact">Wij zijn er voor jou! Waar kunnen we u mee helpen?</h3>
+
+<div class="contents_page">
 
 
-        <div class="contents_page">
+    <div class="contents">
 
-        <div class="contact_form">
+        <div class="col-md-6">
 
-            <form action="js/index.js"></form>
-
+            <div class="contact_form">
+                <form id="contactform" class="form" action="/">
+                    <input type="text" placeholder="Volledige naam" name="vnaam" id="name" required>
+                    <input type="email" placeholder="E-mail adres" name="email" id="email" required>
+                    <textarea type="text" placeholder="Mededeling" name="mededeling" id="message" required></textarea>
+                    <input class="col-5" id="submitbtn" type="submit" value="indienen" required>
+                </form>
+            </div>
         </div>
 
+        <div class="col-md-6">
+
+            <div class="contact_info">
+
+                <div class="right_contents">
+
+                    <div class="mail_info row align-items-center">
+                        <div class="col-auto">
+                            <img src="assets/mail.png" alt="mail icon">
+                        </div>
+                        <div class="col">
+                            <p>info@kidfit.be</p>
+                        </div>
+                    </div>
+                    <div class="loc_info row align-items-center">
+                        <div class="col-auto">
+                            <img src="assets/location.png" alt="location icon">
+                        </div>
+                        <div class="col">
+                            <p>Industrielaan 23, 1000 Brussel</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1260.1429772814795!2d4.3113013229071635!3d50.825867042362205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c42231ff0af5%3A0x6aa71a081901e09!2sBd%20Industriel%2023%2C%201070%20Anderlecht!5e0!3m2!1sen!2sbe!4v1683018671114!5m2!1sen!2sbe"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
 
 
+                </div>
+
+            </div>
         </div>
 
+    </div>
 
-
+</div>
 
 </body>
 </html>
