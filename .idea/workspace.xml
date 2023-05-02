@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323f24c7-a9fb-417a-b581-f285e4ec98a0" name="Changes" comment="Contact Page">
-      <change afterPath="$PROJECT_DIR$/assets/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +65,16 @@
       <workItem from="1682342159884" duration="465000" />
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
-      <workItem from="1683010224249" duration="6056000" />
+      <workItem from="1683010224249" duration="8065000" />
     </task>
+    <task id="LOCAL-00001" summary="Contact Page">
+      <created>1683018937973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683018937973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
