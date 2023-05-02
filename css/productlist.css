@@ -119,8 +119,27 @@ footer ul li p
     text-decoration: none;
     color: white;
     font-size: 15px;
+    width: 160%;
     text-align: center;
-    padding-left: 15rem;
+}
+
+@media screen and (max-width: 415px)
+{
+
+    img[src="assets/logo.svg"]
+    {
+        display: none;
+    }
+
+    header button
+    {
+        display: none;
+    }
+
+    footer ul li p
+    {
+        width: 100%;
+    }
 }
 
 
