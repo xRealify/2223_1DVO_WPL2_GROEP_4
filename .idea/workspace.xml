@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb35d06-7965-4fb5-a47b-23dc70244719" name="Changes" comment="Homepage main fix">
-      <change afterPath="$PROJECT_DIR$/assets/fb_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ig_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/yt_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +38,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Musta\Documents\GitHub\2223_1DVO_WPL2_GROEP_4\css" />
-    </key>
-  </component>
+
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +83,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Log-in" />
+                        <option value="Homepage" />
                       </list>
                     </value>
                   </entry>
