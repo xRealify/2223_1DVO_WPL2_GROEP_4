@@ -14,7 +14,7 @@
     height: 5rem;
 }
 
-nav #inlogknop  p
+nav #inlogknop p
 {
     color:  #34765E !important;
     text-align: center;
@@ -163,28 +163,18 @@ img[src="assets/Knipsel.PNG"]{
     top: 40%;
     left: 62%;
 }
-h5{
+h5, h4{
     color: #FFE8CC;
 }
 
 h1{
     color: #34765E;
 }
-h4{
-    color:#FFE8CC;
-}
-img[src="assets/Vector.png"]{
+
+img[src="assets/Vector.png"], img[src="assets/Vector1.png"], img[src="assets/Vector2.png"], img[src="assets/Vector3.png"]{
     width: 100px;
 }
-img[src="assets/Vector1.png"]{
-    width: 100px;
-}
-img[src="assets/Vector2.png"]{
-    width: 100px;
-}
-img[src="assets/Vector3.png"]{
-    width: 100px;
-}
+
 body {
     overflow-x: hidden;
 }
