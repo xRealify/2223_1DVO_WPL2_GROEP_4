@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="">
+    <list default="true" id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="Product page 27/04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/winkelmandje.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/winkelmandje.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/winkelmandje.html" beforeDir="false" afterPath="$PROJECT_DIR$/winkelmandje.html" afterDir="false" />
@@ -44,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/12200748/Documents/webstorm/wpl2/2223_1DVO_WPL2_GROEP_4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,6 +64,8 @@
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
       <workItem from="1682613936047" duration="2051000" />
+      <workItem from="1683095546594" duration="23000" />
+      <workItem from="1683545673655" duration="881000" />
     </task>
     <task id="LOCAL-00001" summary="Product page 27/04">
       <created>1682605148182</created>
