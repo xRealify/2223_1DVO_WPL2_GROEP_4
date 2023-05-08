@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="893ae9a0-59b3-4875-81ec-f68961d730fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,11 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2811e3bd-c685-4ef6-b087-98f80d026546" name="Changes" comment="" />
+      <changelist id="893ae9a0-59b3-4875-81ec-f68961d730fa" name="Changes" comment="" />
       <created>1681733955878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -53,6 +61,7 @@
       <workItem from="1682342159884" duration="465000" />
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
+      <workItem from="1683553704607" duration="286000" />
     </task>
     <servers />
   </component>
