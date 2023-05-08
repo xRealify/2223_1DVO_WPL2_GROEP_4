@@ -152,4 +152,39 @@ footer ul li p
     {
         width: 100%;
     }
+
+
+
+
+    img[src="assets/mockup.png"]
+    {
+      padding: 0;
+       width: 300px;
+        height: 300px;
+        margin-left: 4rem;
+        margin-top: 5rem;
+    }
+
+    #winkelwagen p
+    {
+        margin-bottom: 4rem;
+        margin-left: 3.5rem;
+    }
+
+   main div ul li
+   {
+       margin: 0 auto;
+       padding-top: 27rem;
+   }
+
+    main ul li h1
+    {
+        font-size: 30px;
+    }
+    main ul li p
+    {
+        font-size: 14px;
+    }
+
+
 }
