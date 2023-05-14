@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -22,15 +25,15 @@
                 <img src="assets/logo.svg" alt="Logo">
             </div>
             <ul>
-                <a href="diensten.html">
-                    <li>Diensten</li>
-                </a>
-                <a href="productpage.html">
-                    <li>Webshop</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
+                <li><a href="diensten.html">
+                    Diensten
+                </a></li>
+                <li><a href="productpage.html">
+                    Webshop
+                </a></li>
+                <li><a href="contact.html">
+                    Contact
+                </a></li>
             </ul>
             <div class="button_nav">
                 <a href="inlog.html">
@@ -39,6 +42,7 @@
             </div>
         </nav>
     </div>
+
 </header>
 
 <main>
@@ -54,13 +58,30 @@
             <div class="col-md-6">
 
                 <div class="contact_form">
-                    <form id="contactform" class="form" action="/">
-                        <input type="text" placeholder="Volledige naam" name="vnaam" id="name" required>
-                        <input type="email" placeholder="E-mail adres" name="email" id="email" required>
-                        <textarea type="text" placeholder="Mededeling" name="mededeling" id="message"
-                                  required></textarea>
-                        <input class="col-5" id="submitbtn" type="submit" value="indienen" required>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control"
+                                   placeholder="Volledige Naam" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="E-mail adres" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1" required>
+                                <option>Ik heb een vraag over de app</option>
+                                <option>Ik heb een vraag over de website</option>
+                                <option>Ik kan niet inloggen</option>
+                                <option>Andere</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                      rows="3">Mededeling</textarea>
+                        </div>
+                        <button type="submit" class="col-5 btn btn-primary btn_form">Submit</button>
                     </form>
+
                 </div>
             </div>
 
@@ -89,15 +110,10 @@
                                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
-
         </div>
-
     </div>
 </main>
 <footer>

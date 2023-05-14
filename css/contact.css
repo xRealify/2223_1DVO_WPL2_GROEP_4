@@ -62,10 +62,26 @@ form input:hover, textarea:hover {
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
 }
+
+.btn_form {
+    background-color: #34765E;
+    border: none    ;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
 .form input,
 .form textarea {
     width: 600px;
     max-width: 100%;
+}
+
+input, select, textarea {
+    border: #34765E 2px solid !important;
 }
 
 
