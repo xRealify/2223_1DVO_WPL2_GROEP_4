@@ -108,10 +108,15 @@ form input:hover, textarea:hover {
     font-size: 20px;
 }
 
+
 .form input,
 .form textarea {
     width: 600px;
     max-width: 100%;
+}
+
+input, select, textarea {
+    border: #34765E 2px solid !important;
 }
 
 
