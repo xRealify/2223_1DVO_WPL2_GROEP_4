@@ -14,7 +14,6 @@ body {
 /* specifieke css */
 main .container {
     width: 100%;
-    min-height: 90vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -73,6 +72,14 @@ main
     margin-top: 25px;
 }
 
+.logo
+{
+    margin-left: 2rem;
+}
+
+
+
+
 main nav ul li
 {
     background-color: #198754;
@@ -81,7 +88,7 @@ main nav ul li
     padding: 20px 50px;
     font-size: 16px;
     border-radius: 10px;
-    height: 15rem;
+    height: 17rem;
     color: #FFF5EA;
     font-weight: normal;
 }
@@ -93,12 +100,12 @@ main nav ul li p
     color: #198754;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     height: 27px;
     cursor: pointer;
     border-radius: 5px;
     padding-top: 4px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 img[src="assets/mockup.png"]
@@ -107,6 +114,89 @@ img[src="assets/mockup.png"]
     height: 100px;
     margin-top: 30px;
 }
+
+
+
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #198754;
+    padding: 15px;
+    text-align: center;
+    margin-left: 24rem;
+}
+.head{
+    background-color: #FFF5EA;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #198754;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+button.knop
+{
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    height: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 4px;
+    margin-top: 1.5rem;
+    width: 10rem;
+    margin-right: 0;
+}
+
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+.row-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #198754;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart p {
+    color: #FFF5EA;
+    background-color: #198754;
+    width: 30px;
+    height: 30px;
+    border-radius: 10000px;
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+    margin-left: 8rem;
+    margin-top: -3.5rem;
+}
+
+footer
+{
+    padding-top: 2rem;
+}
+
 
 footer ul li {
     list-style: none;
@@ -123,7 +213,7 @@ footer ul li p
     text-align: center;
 }
 
-@media screen and (max-width: 415px)
+@media screen and (max-width: 750px)
 {
 
     img[src="assets/logo.svg"]
@@ -140,9 +230,6 @@ footer ul li p
     {
         width: 100%;
     }
+
+
 }
-
-
-
-
-

@@ -1,4 +1,5 @@
 /* algemene css */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 /* specifieke css */
 main .container {
     width: 100%;
@@ -18,19 +21,20 @@ main .container {
     padding-right: 8%;
     box-sizing: border-box;
     overflow: hidden;
+
 }
 
 .navbar {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #34765E;
+    background-color: #198754;
 }
 
 .logomain {
     width: 60px;
     cursor: pointer;
-    margin-left: 90px;
+    margin-left: 60px;
     padding: 10px;
 }
 
@@ -40,10 +44,11 @@ nav {
     text-align: center;
     margin: 0 auto;
 }
+
 button {
     background-color: #FFF5EA;
     border: none;
-    color: #34765E;
+    color: #198754;
     padding: 10px 20px;
     text-align: right;
     text-decoration: none;
@@ -53,6 +58,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -64,21 +70,142 @@ nav ul li a {
     color: white;
     font-size: 20px;
 }
-footer
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
+
+.col-1 {
+    flex-basis: 60%;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 
-.col-md-6 p
+.col-1 h2 {
+    font-size: 50px;
+    color: #198754;
+}
+
+.col-1 h1 {
+    font-size: 50px;
+    color: #198754;
+}
+.col-2 {
+    position: relative;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.illustratie {
+    margin-right: 50px;
+    width: 80%;
+    height: 80%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+footer ul li p
 {
-    color: #FFE8CC;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 160%;
     text-align: center;
-    padding-top: 2rem;
 }
 
-div .col-md-1 svg
-{
-    margin-top: 1.5rem;
+.diensten {
+    background-color: #198754;
+    border: none;
+    color: #FFF5EA;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
 }
+main {
+    margin-bottom: 70px;
+}
+h3  {
+    font-size: 18px;
+    color: #198754;
+}
+
+@media screen and (max-width: 800px) {
+
+    img[src="assets/logo.svg"] {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    footer ul li p {
+        width: 100%;
+    }
+
+    footer
+    {
+        position: inherit;
+    }
+
+    .row
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .illustratie
+    {
+        padding-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .col-1 h2
+    {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        padding-right: 15rem;
+    }
+
+    h3
+    {
+
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-right: 8rem;
+    }
+
+    button
+    {
+        margin-left: 2.5rem;
+
+    }
+}
+
