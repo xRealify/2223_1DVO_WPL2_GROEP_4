@@ -8,8 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/productlist.css">
+  <script defer src="js/index.js"></script>
 </head>
 <body>
+
 <header>
   <div class="container">
     <div class="navbar">
@@ -28,23 +30,42 @@
 
 <main>
 
-  <div class="container">
-    <div class="productlist">
-      <nav>
-        <ul id="producten1">
-          <li><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a></li>
-          <li><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a></li>
-          <li><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a></li>
-        </ul>
-
-        <ul id="producten2">
-          <li><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a></li>
-          <li><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a></li>
-          <li><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a></li>
-        </ul>
-      </nav>
-    </div>
+  <div class="winkel">
+    <p class="logo">  <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21.2917 66.9166C19.6187 66.9166 18.1871 66.3214 16.9968 65.1311C15.8045 63.9388 15.2083 62.5062 15.2083 60.8333C15.2083 59.1603 15.8045 57.7277 16.9968 56.5354C18.1871 55.3451 19.6187 54.7499 21.2917 54.7499C22.9646 54.7499 24.3962 55.3451 25.5865 56.5354C26.7788 57.7277 27.375 59.1603 27.375 60.8333C27.375 62.5062 26.7788 63.9388 25.5865 65.1311C24.3962 66.3214 22.9646 66.9166 21.2917 66.9166ZM51.7083 66.9166C50.0354 66.9166 48.6038 66.3214 47.4135 65.1311C46.2212 63.9388 45.625 62.5062 45.625 60.8333C45.625 59.1603 46.2212 57.7277 47.4135 56.5354C48.6038 55.3451 50.0354 54.7499 51.7083 54.7499C53.3812 54.7499 54.8139 55.3451 56.0062 56.5354C57.1965 57.7277 57.7917 59.1603 57.7917 60.8333C57.7917 62.5062 57.1965 63.9388 56.0062 65.1311C54.8139 66.3214 53.3812 66.9166 51.7083 66.9166ZM11.026 51.7083L20.075 35.2833L9.12499 12.1666H3.04166V6.08325H12.9271L15.8167 12.1666H66.0042L50.8719 39.5416H24.6375L21.2917 45.6249H57.7917V51.7083H11.026Z" fill="#198754"/>
+    </svg></p>
+    <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
   </div>
+
+
+  <div class="productlist">
+    <nav>
+      <ul id="producten1">
+
+        <li id="cart1"><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a><button class="knop" onclick='addtocartID("0")'>Toevoegen</button></li>
+        <li id="cart2"><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a><button class="knop" onclick='addtocartID("1")'>Toevoegen</button></li>
+        <li id="cart3"><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a><button class="knop" onclick='addtocartID("2")'>Toevoegen</button></li>
+      </ul>
+
+      <ul id="producten2">
+        <li id="cart4"><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a><button class="knop" onclick='addtocartID("3")'>Toevoegen</button></li>
+        <li id="cart5"><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a><button class="knop" onclick='addtocartID("4")'>Toevoegen</button></li>
+        <li id="cart6"><h2>placeholder</h2><img src="assets/mockup.png" alt="doos"><a href="winkelmandje.html"><p>Details</p></a><button class="knop" onclick='addtocartID("5")'>Toevoegen</button></li>
+      </ul>
+
+    </nav>
+  </div>
+
+
+  <div class="container">
+    <div id="root"></div>
+    <div class="sidebar">
+      <div class="head"><p>Mijn winkelmandje</p></div>
+      <div id="cart">Uw winkelmandje is leeg</div>
+      <div class="foot">
+        <h3>Totaal</h3>
+        <h2 id="total">0€</h2>
+      </div></div></div>
 </main>
 
 
