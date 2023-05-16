@@ -2,54 +2,9 @@
     margin: 0 auto;
 }
 
-
 body {
     background-color: #FFE8CC;
 }
-
-/* Navbar */
-.navbar {
-    width: 100%;
-    height: 80px;
-    align-items: center;
-    background-color: #34765E;
-    display: flex;
-    flex-direction: row;
-}
-
-.logo_nav img {
-    width: 60px;
-}
-
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 200px;
-}
-
-.navbar ul li {
-    font-size: 20px;
-    font-weight: 600;
-    color: #FFE8CC;
-}
-
-ul li a:not(.button_nav a) {
-    text-decoration: none;
-}
-
-.button_nav button {
-    background-color: #FFE8CC;
-    border: none;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #34765E;
-}
-
-/* Body */
 
 .contents {
     display: flex;
@@ -101,12 +56,22 @@ form input:hover, textarea:hover {
     border-bottom: 1px solid #198754;
 }
 
-#submitbtn {
+#submitbtn{
     background-color: #34765E;
     color: white;
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
 }
+
+.btn_form {
+    background-color: #34765E;
+    border: none    ;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
 
 
 .form input,
@@ -128,111 +93,9 @@ input, select, textarea {
     font-size: 20px;
     color: #34765E;
 }
-
-.mail_info {
+.mail_info{
     padding-bottom: 10px;
 }
-
 iframe {
     padding-top: 10px;
-}
-
-.contact_section {
-    height: 800px;
-}
-
-/* Footer */
-
-.footer {
-    background-color: #34765E;
-    width: 100%;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: fixed;
-}
-
-.footer_text p {
-    color: #FFE8CC;
-    font-size: 20px;
-    font-family: "Varela Round", sans-serif;
-    font-weight: 400;
-}
-
-.footer_icons {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    align-items: center;
-}
-
-
-/* TABLET PORTRAIT */
-@media screen
-and (min-width: 700px)
-and (max-width: 1180px)
-and (orientation: portrait) {
-
-}
-
-/* TABLET LANDSCAPE */
-@media screen
-and (min-width: 820px)
-and (max-width: 1180px)
-and (orientation: landscape) {
-
-
-}
-
-/* SMARTPHONE */
-
-@media screen
-and (max-width: 414px)
-and (orientation: portrait) {
-
-    .title_contact {
-        font-size: 42px;
-    }
-
-    .text_contact {
-        font-size: 18px;
-        margin-top: -10px;
-    }
-
-    .contents {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .form {
-        width: 380px;
-    }
-
-    .uppder_content {
-        width: 380px;
-        margin-top: 30px;
-    }
-
-    iframe {
-        width: 380px;
-        margin-top: 10px;
-    }
-
-    .contact_section {
-        height: 1300px;
-    }
-
-    .footer {
-        width: 414px;
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-top: 30px;
-    }
-
-    .navigation {
-        display: none;
-    }
 }
