@@ -1,35 +1,35 @@
 const product = [
     {
         id: 0,
-        title: "Product 1",
-        price: 30,
+        title: "Teddybeer",
+        price: 15,
     },
     {
         id: 1,
-        title: 'Product 2',
-        price: 30,
+        title: 'Papfles',
+        price: 10,
     },
     {
         id: 2,
-        title: 'Product 3',
-        price: 60,
+        title: 'Kinderboekje',
+        price: 25,
     },
     {
         id: 3,
-        title: 'Product 4',
-        price: 60,
+        title: 'Kledingstuk',
+        price: 30,
     },
 
     {
         id: 4,
-        title: 'Product 5',
-        price: 60,
+        title: 'Speelgoed',
+        price: 15,
     },
 
     {
         id: 5,
-        title: 'Product 6',
-        price: 60,
+        title: 'Blokken',
+        price: 20,
     },
 ]
 

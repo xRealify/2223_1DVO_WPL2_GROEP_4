@@ -1,23 +1,274 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+/* algemene css */
 
 * {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
 }
 
 body {
-    background-color: #FFE8CC;
+    background-color: #FFF5EA;
+    margin: 0 auto;
 }
 
 
-h1 {
-    font-size: 60px;
-}
-h3 {
-    font-size: 25px;
+
+/* specifieke css */
+main .container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+
 }
 
-h1, h3 {
-    font-family: 'Concert One', cursive;
-    color: #34765E;
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+}
+
+.logomain {
+    width: 60px;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+
+nav {
+    flex: 1;
     text-align: center;
+    margin: 0 auto;
+}
+
+header button {
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+div.tekst h1
+{
+    color: #198754;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 40px;
+}
+
+div.tekst p
+{
+    color: #198754;
+    text-align: center;
+}
+
+div #form
+{
+    padding-top: 3rem;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+div #form p
+{
+    color: #198754;
+}
+
+div #form input
+{
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid #198754;
+    border-radius: 5px;
+    color: #9f9f9f;
+    margin-top: 1rem;
+}
+
+div #form textarea
+{
+    width: 25rem;
+    height: 10rem;
+    border: 1px solid #198754;
+    border-radius: 5px;
+    color: #9f9f9f;
+    margin-top: 1rem;
+}
+
+div #info
+{
+    float: right;
+    width: 50%;
+    margin-top: -18rem;
+}
+
+div #tekst
+{
+    margin-top: -8.5rem;
+}
+div #tekst p
+{
+    color: #198754;
+    padding-left: 5rem;
+}
+
+div iframe
+{
+    height: 10rem;
+    padding-right: 12rem;
+    float: right;
+    margin-top: -10rem;
+
+}
+
+
+main button {
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid #198754;
+    border-radius: 5px;
+    background-color: #198754;
+    margin-top: 0.5rem;
+    color: #FFF5EA;
+    margin-left: 20rem;
+}
+
+footer
+{
+    margin-top: 6.9rem;
+}
+
+footer ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+footer ul li p
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 160%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    img[src="assets/logo.svg"] {
+        display: none;
+    }
+
+    footer
+    {
+        padding-top: 7rem;
+    }
+
+    header button {
+        display: none;
+    }
+
+    footer ul li p {
+        width: 100%;
+    }
+
+    div #form
+    {
+        margin-left: 3rem;
+        margin-top: 0;
+    }
+
+    div #form input
+    {
+        width: 20rem;
+        height: 3rem;
+    }
+
+    div #form textarea
+    {
+        width: 20rem;
+        height: 10rem;
+    }
+
+    main button
+    {
+        width: 20rem;
+        height: 3rem;
+        margin-left: 3rem;
+    }
+
+    div iframe
+    {
+        padding-top: 12rem;
+        padding-right: 3rem;
+        width: 20rem;
+    }
+
+    div #info {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1600px)
+{
+    div #form
+    {
+        margin-left: 3rem;
+        margin-top: 0;
+    }
+
+    div #form input
+    {
+        width: 20rem;
+        height: 3rem;
+    }
+
+    div #form textarea
+    {
+        width: 20rem;
+        height: 10rem;
+    }
+
+    main button
+    {
+        width: 20rem;
+        height: 3rem;
+        margin-left: 3rem;
+    }
+
+    div iframe
+    {
+
+        padding-right: 5rem;
+        width: 20rem;
+    }
+
+
 }

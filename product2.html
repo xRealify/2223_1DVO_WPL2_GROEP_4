@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
-
-    <title>Home</title>
-
+    <title>Title</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/product2.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
+
 <header>
     <div class="container">
         <div class="navbar">
@@ -22,7 +19,7 @@
             <nav>
                 <ul id="menubar">
                     <li><a href="diensten.html">Diensten</a></li>
-                    <li><a href="productlist.html">Webshop</a></li>
+                    <li><a href="productlist.html"><u>Webshop</u></a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -32,31 +29,34 @@
         </div>
     </div>
 </header>
+
 <main>
-    <div class="row">
-        <div class="col-1">
-            <h2>Hou de gegevens<br>
-                van uw kind <br>
-                bij met KidFit.
-            </h2>
-            <br>
-            <h3>We hebben ervoor gezorgd dat onze app zo <br>
-                gebruiksvriendelijk mogelijk is voor uw gemak.</h3>
-            <a href="diensten.html" id="diensten">
-                <button class="diensten" type="button">Onze Diensten</button>
-            </a>
+    <div class="container">
+        <div id="image">
+            <img src="assets/product2.png" alt="">
         </div>
-        <div class="col-2">
-            <img src="assets/home.png" alt="illustratie Telefoons" class="illustratie">
-        </div>
-    </div>
+
+        <div id="info">
+
+            <ul>
+                <li><h1>papfles</h1><br><br><br><h1>Beschrijving</h1><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                    Aut autem commodi consectetur delectus ea eligendi fuga, iure<br>
+                    laudantium libero, molestiae numquam suscipit? Dolore dolorum et<br>
+                    expedita explicabo necessitatibus, quaerat quisquam.</p><br><br><h1>Prijs:</h1><br><p>10€</p></li>
+            </ul>
+        </div></div>
+
+    <a href="productlist.html"><button class="terug">Terug naar productenlijst</button></a>
+
 </main>
+
+
 <footer>
     <div class="container">
         <div class="navbar">
             <nav>
-                <ul>
-                    <li><p>Copyright © 2023 www.kidfit.be. All Rights Reserved.</p></li>
+                <ul id="footer">
+                    <li><p>Copyright © 2023 kidfit.be. All Rights Reserved.</p></li>
                 </ul>
             </nav>
             <ul id="socials">
@@ -72,6 +72,10 @@
             </ul>
         </div>
     </div>
+
+
+
 </footer>
+
 </body>
 </html>

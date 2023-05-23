@@ -1,124 +1,261 @@
+/* algemene css */
 
-*{
-    padding: 0;
+* {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #FFF5EA;
+    margin: 0 auto;
+}
+
+
+
+/* specifieke css */
+main .container {
     width: 100%;
-}
-
-#ProductPageNav
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
-}
-
-nav #inlogknop
-{
-    background-color: #FFE8CC;
-    border-radius: 5px;
-    height: 2.5rem;
-    width: 10rem;
-    margin: 1.2rem 11rem;
-    line-height: 0;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
 
-nav #inlogknop  p
-{
-    color:  #34765E !important;
-    text-align: center;
-    font-size: 17px;
-    padding-top: 1.3rem;
-
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #198754;
 }
 
-nav .col-md-1 p
-{
-    color:  #FFE8CC;
-    padding-top: 1.5rem;
-
-}
-
-div #logo img[src="afbeeldingen/logo.svg"]
-{
+.logomain {
     width: 60px;
-    height: 55px;
-    padding-top: 1rem;
-    margin-left: 12rem;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 10px;
 }
 
-main
-{
-    background-color: #FFE8CC;
-    height: 38.9rem;
 
-}
-
-h1{
-    color: #FFE8CC;
-}
-
-footer
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
-}
-
-.col-md-6 p
-{
-    color: #FFE8CC;
+nav {
+    flex: 1;
     text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.col-1 {
+    flex-basis: 60%;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.col-1 h2 {
+    font-size: 50px;
+    color: #198754;
+}
+
+.col-1 h1 {
+    font-size: 50px;
+    color: #198754;
+}
+.col-2 {
+    position: relative;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.illustratie {
+    margin-right: 50px;
+    width: 80%;
+    height: 80%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+main svg
+{
+    width: 50%;
+    height: 50%;
     padding-top: 2rem;
 }
 
-div .col-md-1 svg
+#lijst
 {
-    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-left: 10rem;
 }
-div img[src="afbeelding/Group%2041.png"]
+
+
+main ul li
 {
-    width: 350px;
-    float: left;
-}
-aside{
-    float: right;
-}
-p{
-    float: right;
-    width: 800px;
-}
-#de\ uitleg
-{
-    height: 10rem;
-    text-align: right;
-    padding: 10rem;
-}
-#dit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #198754;
+    color: #FFF5EA;
+    margin: 1.5rem;
+    border-radius: 10px;
+    width: 17rem;
+    height: 20rem;
     text-align: center;
-    bottom: 8rem;
 }
-#vakjes{
- color: black;
-}
-#vak1{
-    background-color: #34765E;
 
+main ul li img
+{
+    padding-top: 1rem;
 }
-#vak2{
-    background-color: #34765E;
 
+main ul li p
+{
+    padding-top: 1.5rem;
 }
-#vak3{
-    background-color: #34765E;
 
+main ul li h3
+{
+    color: #FFF5EA;
+    padding-top: 1.5rem;
 }
-#vak4{
-    background-color: #34765E;
 
+
+
+main {
+    margin-bottom: 150px;
 }
-#k{
-    text-align: right;
+
+
+h3  {
+    font-size: 18px;
+    color: #198754;
 }
-#lm
+
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+footer ul li p
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 160%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    img[src="assets/logo.svg"] {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    footer ul li p {
+        width: 100%;
+    }
+
+    footer
+    {
+        position: inherit;
+    }
+
+    .row
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .illustratie
+    {
+        padding-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .col-1 h2
+    {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        padding-right: 15rem;
+    }
+
+    #lijst
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-left: 3.2rem;
+    }
+
+    div.row h3
+    {
+     padding-right: 8rem;
+        text-align: center;
+    }
+
+    main svg
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1500px)
+{
+    #lijst
+    {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1090px)
+{
+    #lijst
+    {
+        padding-left: 0;
+        font-size: 10px;
+    }
+}

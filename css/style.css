@@ -41,7 +41,9 @@ nav {
     margin: 0 auto;
 }
 
-button {
+
+
+header button {
     background-color: #FFF5EA;
     border: none;
     color: #198754;
@@ -73,24 +75,55 @@ main
     margin-top: 25px;
 }
 
-main nav ul li
+img[src="assets/zorg.png"]
+{
+  width: 30%;
+    height: 30%;
+    margin-left: 16rem;
+}
+
+img[src="assets/ouders.png"]
+{
+    width: 30%;
+    height: 30%;
+}
+
+main button.button1
 {
     background-color: #198754;
-    border: none;
-    margin: 3rem 2rem 2rem;
-    padding: 20px 7rem;
-    font-size: 16px;
-    border-radius: 10px;
-    height: 20rem;
     color: #FFF5EA;
-    font-weight: normal;
+    border: 0;
+    border-radius: 5px;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 23.7rem;
+    font-size: 16px;
 }
+
+main button.button1 a, main button.button2 a
+{
+    color: #FFF5EA;
+    text-decoration: none;
+}
+
+main button.button2
+{
+    background-color: #198754;
+    color: #FFF5EA;
+    border: 0;
+    border-radius: 5px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 16px;
+   margin-left: 15.2rem;
+}
+
 
 main div h1
 {
     color: #198754;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 0.5rem;
 }
 
 main div hr
@@ -123,19 +156,6 @@ main nav ul li p
     padding-top: 4px;
     margin-top: 2rem;
 }
-@media screen and (max-width: 415px) {
-
-    main nav ul li
-    {
-        background-color: #198754;
-        border: none;
-        margin: 2rem;
-        padding: 20px 5rem;
-        font-size: 12px;
-        border-radius: 5px;
-        height: 14rem;
-    }
-}
 
 /*footer code*/
 footer ul li {
@@ -153,7 +173,44 @@ footer ul li p
     text-align: center;
 }
 
-@media screen and (max-width: 750px)
+
+@media screen and (max-width: 899px) {
+
+    img[src="assets/zorg.png"]
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    img[src="assets/ouders.png"]
+    {
+        width: 100%;
+    }
+
+    main button.button1, main button.button2
+    {
+        display: none;
+    }
+
+    img[src="assets/logo.svg"]
+    {
+        display: none;
+    }
+
+    header button
+    {
+        display: none;
+    }
+
+    footer ul li p
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px)
 {
 
     img[src="assets/logo.svg"]
@@ -170,5 +227,28 @@ footer ul li p
     {
         width: 100%;
     }
+
+    img[src="assets/zorg.png"]
+    {
+        width: 30%;
+        margin-left: 12rem;
+    }
+
+    img[src="assets/ouders.png"]
+    {
+        width: 30%;
+    }
+
+    main button.button1
+    {
+        margin-left: 16rem;
+    }
+
+    main button.button2
+    {
+        margin-left: 9rem;
+    }
+
+
 }
 /*e*/

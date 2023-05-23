@@ -52,7 +52,7 @@ button {
     border-radius: 5px;
 }
 
-img[src="assets/mockup.png"]
+img[src="assets/product6.png"]
 {
     width: 400px;
     height: 400px;
@@ -83,6 +83,7 @@ main div #info
 {
     width: 50%;
     float: right;
+    margin-top: 3rem;
 }
 
 main div ul li
@@ -103,12 +104,12 @@ main div ul li h1
     font-family: "Concert One", sans-serif;
 }
 
-#winkelwagen p
+button.terug
 {
     background-color: #198754;
     color: #FFF5EA;
     width: 17rem;
-    height: 1.2rem;
+    height:  3rem;
     padding: 10px 20px;
     text-align: center;
     font-size: 16px;
@@ -116,6 +117,11 @@ main div ul li h1
     border-radius: 5px;
     margin-bottom: 5rem;
     margin-left: 40rem;
+    text-decoration: none;
+}
+
+button.terug a{
+    text-decoration: none;
 }
 
 
@@ -135,56 +141,49 @@ footer ul li p
     text-align: center;
 }
 
-@media screen and (max-width: 415px)
-{
+@media screen and (max-width: 800px) {
 
-    img[src="assets/logo.svg"]
-    {
+    img[src="assets/logo.svg"] {
         display: none;
     }
 
-    header button
-    {
+    header button {
         display: none;
     }
 
-    footer ul li p
-    {
+    footer ul li p {
         width: 100%;
     }
 
-
-
-
-    img[src="assets/mockup.png"]
-    {
-      padding: 0;
-       width: 300px;
-        height: 300px;
-        margin-left: 4rem;
-        margin-top: 5rem;
+    button.terug {
+        margin-left: 4.5rem;
+        margin-top: 2rem;
     }
 
-    #winkelwagen p
-    {
-        margin-bottom: 4rem;
-        margin-left: 3.5rem;
+    img[src="assets/product6.png"] {
+        width: 100%;
+        height: 100%;
+        padding-left: 7rem;
     }
 
-   main div ul li
-   {
-       margin: 0 auto;
-       padding-top: 27rem;
-   }
-
-    main ul li h1
-    {
-        font-size: 30px;
-    }
-    main ul li p
-    {
-        font-size: 14px;
+    main ul {
+        padding-top: 15rem;
+        width: 100%;
     }
 
+    main div ul li {
+        margin-left: -5.9rem;
+        margin-right: 10rem;
+        width: 100%;
+    }
 
+    main div ul li h1
+    {
+        text-align: center;
+    }
+
+    main div ul li p
+    {
+        text-align: center;
+    }
 }

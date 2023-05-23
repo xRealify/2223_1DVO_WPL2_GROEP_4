@@ -12,7 +12,15 @@ body {
 }
 
 /* specifieke css */
-main .container {
+main .nav{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+main .container{
     width: 100%;
     padding-left: 8%;
     padding-right: 8%;
@@ -93,6 +101,8 @@ main nav ul li
     font-weight: normal;
 }
 
+
+
 main nav ul li p
 {
     background-color: #FFF5EA;
@@ -108,7 +118,42 @@ main nav ul li p
     margin-top: 1.5rem;
 }
 
-img[src="assets/mockup.png"]
+img[src="assets/product1.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product2.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product3.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product4.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product5.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product6.png"]
 {
     width: 100px;
     height: 100px;
@@ -229,6 +274,13 @@ footer ul li p
     footer ul li p
     {
         width: 100%;
+    }
+
+    main .sidebar
+    {
+        margin-left: -1rem;
+        width: 100%;
+
     }
 
 
