@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
 * {
     margin: 0 auto;
 }
@@ -8,10 +6,18 @@ body {
     background-color: #FFE8CC;
 }
 
+.contents {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+    width: 65%;
+}
 
 h1 {
     font-size: 60px;
 }
+
 h3 {
     font-size: 25px;
 }
@@ -20,4 +26,76 @@ h1, h3 {
     font-family: 'Concert One', cursive;
     color: #34765E;
     text-align: center;
+}
+
+/* Contact Form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, textarea {
+    padding: 12px 0px 12px 10px;
+    border: 1px solid #198754;
+    border-radius: 5px;
+}
+
+form input::placeholder, textarea {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+textarea {
+    height: 200px;
+}
+
+form input:hover, textarea:hover {
+    border-bottom: 1px solid #198754;
+}
+
+#submitbtn{
+    background-color: #34765E;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+
+.btn_form {
+    background-color: #34765E;
+    border: none    ;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+.form input,
+.form textarea {
+    width: 600px;
+    max-width: 100%;
+}
+
+input, select, textarea {
+    border: #34765E 2px solid !important;
+}
+
+
+/* Contact Information */
+
+.mail_info p, .loc_info p {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #34765E;
+}
+.mail_info{
+    padding-bottom: 10px;
+}
+iframe {
+    padding-top: 10px;
 }
