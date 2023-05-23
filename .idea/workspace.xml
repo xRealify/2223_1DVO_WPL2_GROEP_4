@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/mockup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/productlist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,15 +16,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Homepage" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,18 +33,17 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OYOGnSFiwIydK8IfsqdofSIbiM" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebb35d06-7965-4fb5-a47b-23dc70244719" name="Changes" comment="Homepage main fix" />
+      <changelist id="2811e3bd-c685-4ef6-b087-98f80d026546" name="Changes" comment="" />
       <created>1681733955878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -54,19 +55,7 @@
       <workItem from="1682342159884" duration="465000" />
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
-      <workItem from="1683010224249" duration="8065000" />
-      <workItem from="1683029692263" duration="45000" />
-      <workItem from="1683029827584" duration="69000" />
-      <workItem from="1683032772069" duration="1654000" />
     </task>
-    <task id="LOCAL-00001" summary="Contact Page">
-      <created>1683018937973</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683018937973</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +72,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Homepage" />
+                        <option value="origin/Log-in" />
                       </list>
                     </value>
                   </entry>
@@ -96,7 +85,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Contact Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
