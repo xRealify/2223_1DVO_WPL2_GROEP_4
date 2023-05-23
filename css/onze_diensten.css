@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     width: 100%;
+
 }
 
 #ProductPageNav
@@ -13,18 +14,7 @@
     height: 5rem;
 }
 
-nav #inlogknop
-{
-    background-color: #FFE8CC;
-    border-radius: 5px;
-    height: 2.5rem;
-    width: 10rem;
-    margin: 1.2rem 11rem;
-    line-height: 0;
-
-}
-
-nav #inlogknop  p
+nav #inlogknop p
 {
     color:  #34765E !important;
     text-align: center;
@@ -45,7 +35,8 @@ div #logo img[src="assets/color.svg"]
     width: 60px;
     height: 55px;
     padding-top: 1rem;
-    margin-left: 12rem;
+    margin-left: 1rem;
+
 }
 
 main
@@ -53,10 +44,6 @@ main
     background-color: #FFE8CC;
     height: 38.9rem;
 
-}
-
-h1{
-    color: #FFE8CC;
 }
 
 footer
@@ -82,13 +69,8 @@ div img[src="assets/Group%2041.png"]
     width: 350px;
     float: left;
 }
-aside{
-    float: right;
-}
-p{
-    float: right;
-    width: 800px;
-}
+
+
 #de\ uitleg
 {
     height: 10rem;
@@ -99,28 +81,100 @@ p{
     text-align: center;
     bottom: 8rem;
 }
-#vakjes{
-    color: black;
-    align-items: start;
-    width: 200px;
-    height: 200px;
-}
 #vak1{
     background-color: #34765E;
-    align-items: start;
+    width: 220px;
+    height: 260px;
+    margin: 10px;
+
 }
 #vak2{
     background-color: #34765E;
+    text-align: center;
+    width: 200px;
+    height: 260px;
+    margin: 10px;
+
 
 }
 #vak3{
     background-color: #34765E;
+    text-align: center;
+    width: 200px;
+    height: 260px;
+    margin: 10px;
 
 }
 #vak4{
     background-color: #34765E;
+    text-align: center;
+    width: 200px;
+    height: 260px;
+    margin: 10px;
 
 }
 #k{
     text-align: right;
+}
+h2{
+    color: #34765E;
+    position: absolute;
+    left: 70%;
+    padding-top: 50px;
+}
+
+#hh1{
+    position: absolute;
+    left: 68%;
+    padding-top: 100px;
+    color: #34765E;
+}
+#hh2{
+    position: absolute;
+    left: 68%;
+    padding-top: 130px;
+    color: #34765E;
+}
+#hh3{
+    position: absolute;
+    left: 68%;
+    padding-top: 160px;
+    color: #34765E;
+}
+#wat{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #34765E;
+}
+#vier{
+    align-items: center;
+}
+#info{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    color: #34765E;
+}
+img[src="assets/Knipsel.PNG"]{
+    width: 400px;
+    float: right;
+    position: absolute;
+    top: 40%;
+    left: 62%;
+}
+h5, h4{
+    color: #FFE8CC;
+}
+
+h1{
+    color: #34765E;
+}
+
+img[src="assets/Vector.png"], img[src="assets/Vector1.png"], img[src="assets/Vector2.png"], img[src="assets/Vector3.png"]{
+    width: 100px;
+}
+
+body {
+    overflow-x: hidden;
 }
