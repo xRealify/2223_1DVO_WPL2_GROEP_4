@@ -8,11 +8,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 
-    <script defer src="script.js"></script>
 
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -22,11 +22,13 @@
             <nav>
                 <ul id="menubar">
                     <li><a href="diensten.html">Diensten</a></li>
-                    <li><a href="productpage.html">Webshop</a></li>
+                    <li><a href="productlist.html">Webshop</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <button class="inlog">Inloggen</button>
+            <a href="inlog.html" id="inlog">
+                <button>Inloggen</button>
+            </a>
         </div>
     </div>
 </header>
@@ -40,20 +42,20 @@
             <br>
             <h3>We hebben ervoor gezorgd dat onze app zo <br>
                 gebruiksvriendelijk mogelijk is voor uw gemak.</h3>
-            <a href="contact.html" id="contactpage">
+            <a href="diensten.html" id="diensten">
                 <button class="diensten" type="button">Onze Diensten</button>
             </a>
         </div>
         <div class="col-2">
-            <img src="assets/illustratie.png" alt="illustratie Telefoons" class="illustratie">
+            <img src="assets/home.png" alt="illustratie Telefoons" class="illustratie">
         </div>
-        </div>
+    </div>
 </main>
 <footer>
     <div class="container">
         <div class="navbar">
             <nav>
-                <ul id="footer">
+                <ul>
                     <li><p>Copyright © 2023 www.kidfit.be. All Rights Reserved.</p></li>
                 </ul>
             </nav>

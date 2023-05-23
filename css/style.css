@@ -1,108 +1,254 @@
 /*Navbar code*/
-*
-{
-    padding: 0;
+* {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #FFF5EA;
+    margin: 0 auto;
+}
+
+/* specifieke css */
+main .container {
     width: 100%;
+    min-height: 77vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-#ProductPageNav
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #198754;
 }
 
-nav #inlogknop
-{
-    background-color: #FFE8CC;
-    border-radius: 5px;
-    height: 2.5rem;
-    width: 10rem;
-    margin: 1.2rem 11rem;
-    line-height: 0;
-
-}
-
-nav #inlogknop  p
-{
-    color:  #34765E !important;
-    text-align: center;
-    font-size: 17px;
-    padding-top: 1.3rem;
-
-}
-
-nav .col-md-1 p
-{
-    color:  #FFE8CC;
-    padding-top: 1.5rem;
-
-}
-
-div #logo img[src="assets/logo.svg"]
-{
+.logomain {
     width: 60px;
-    height: 55px;
-    padding-top: 1rem;
-    margin-left: 12rem;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 10px;
 }
-/* Log-in page */
-.LoginPage{
-    background-color: #ffe8cC;
-    height: 770px;
-}
-/*TITLE*/
-.LoginPage h1{
-    text-align: center;
-    padding-top: 7rem;
-    color: #34765E;
-}
-/*line*/
-.LoginPage hr{
-    padding-top: 3rem;
-    width: 45%;
-    display: block;
-    border-top: 5px solid #34765E;
-    justify-self: center;
-    opacity: 100%;
-}
-/*Login buttons*/
-.LoginPage div div{
-    background-color: #34765E;
-    width: 22rem;
-    height: 24rem;
-    border-radius: 10px;
-}
-.LoginPage div div h4{
-    text-align: center;
-    color: #ffe8cC;
 
+
+nav {
+    flex: 1;
+    text-align: center;
+    margin: 0 auto;
 }
-.LoginPage div div img{
-    width: 80%;
-    height: 80%;
-    padding: 2rem;
+
+
+
+header button {
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 5px;
 }
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+main
+{
+    margin-top: 25px;
+}
+
+img[src="assets/zorg.png"]
+{
+  width: 30%;
+    height: 30%;
+    margin-left: 16rem;
+}
+
+img[src="assets/ouders.png"]
+{
+    width: 30%;
+    height: 30%;
+}
+
+main button.button1
+{
+    background-color: #198754;
+    color: #FFF5EA;
+    border: 0;
+    border-radius: 5px;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 23.7rem;
+    font-size: 16px;
+}
+
+main button.button1 a, main button.button2 a
+{
+    color: #FFF5EA;
+    text-decoration: none;
+}
+
+main button.button2
+{
+    background-color: #198754;
+    color: #FFF5EA;
+    border: 0;
+    border-radius: 5px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 16px;
+   margin-left: 15.2rem;
+}
+
+
+main div h1
+{
+    color: #198754;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+main div hr
+{
+    margin-top: 2rem;
+    border-top: 2px solid #198754;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 60%;
+    margin-left: 20%;
+}
+
+img[src="assets/Icon-login-zorgverlener.svg"], img[src="assets/Icon-login-Ouder.svg"]
+{
+    width: 50%;
+    height: 50%;
+    padding: 20%;
+}
+
+main nav ul li p
+{
+    color: #FFF5EA;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    height: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 4px;
+    margin-top: 2rem;
+}
+
 /*footer code*/
-footer
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
 }
 
-.col-md-6 p
+footer ul li p
 {
-    color: #FFE8CC;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 160%;
     text-align: center;
-    padding-top: 2rem;
 }
 
-div .col-md-1 svg
+
+@media screen and (max-width: 899px) {
+
+    img[src="assets/zorg.png"]
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    img[src="assets/ouders.png"]
+    {
+        width: 100%;
+    }
+
+    main button.button1, main button.button2
+    {
+        display: none;
+    }
+
+    img[src="assets/logo.svg"]
+    {
+        display: none;
+    }
+
+    header button
+    {
+        display: none;
+    }
+
+    footer ul li p
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px)
 {
-    margin-top: 1.5rem;
-}
 
+    img[src="assets/logo.svg"]
+    {
+        display: none;
+    }
+
+    header button
+    {
+        display: none;
+    }
+
+    footer ul li p
+    {
+        width: 100%;
+    }
+
+    img[src="assets/zorg.png"]
+    {
+        width: 30%;
+        margin-left: 12rem;
+    }
+
+    img[src="assets/ouders.png"]
+    {
+        width: 30%;
+    }
+
+    main button.button1
+    {
+        margin-left: 16rem;
+    }
+
+    main button.button2
+    {
+        margin-left: 9rem;
+    }
+
+
+}
 /*e*/

@@ -3,125 +3,94 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <title>KidFit - Contact</title>
+    <title>Home</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
     <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
 
 </head>
 <body>
-
 <header>
-
-    <div class="navigation">
-        <nav class="navbar">
-            <div class="logo_nav">
-                <img src="assets/logo.svg" alt="Logo">
-            </div>
-            <ul>
-                <a href="diensten.html">
-                    <li>Diensten</li>
-                </a>
-                <a href="productpage.html">
-                    <li>Webshop</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-            </ul>
-            <div class="button_nav">
-                <a href="login.html">
-                    <button>Inloggen</button>
-                </a>
-            </div>
-        </nav>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="assets/logo.svg" class="logomain" alt="logo"> </a>
+            <nav>
+                <ul id="menubar">
+                    <li><a href="diensten.html">Diensten</a></li>
+                    <li><a href="productlist.html">Webshop</a></li>
+                    <li><a href="contact.html"><u>Contact</u></a></li>
+                </ul>
+            </nav>
+            <a href="inlog.html" id="inlog">
+                <button>Inloggen</button>
+            </a>
+        </div>
     </div>
 </header>
 
 <main>
 
-    <div class="contact_section">
+    <div class="tekst">
+    <h1>Contacteer ons!</h1>
+    <p>We zijn er voor jou! Waar kunnen we u mee helpen?</p>
+    </div>
 
-        <h1 class="title_contact">Contacteer ons</h1>
-        <h3 class="text_contact">Wij zijn er voor jou! Waar kunnen we u mee helpen?</h3>
+    <div class="formulier">
+        <div class="col.6" id="form">
+            <label for="naam">
+                <input type="text" id="naam" value=" Volledige naam...">
+            </label>
 
-        <div class="contents_page">
+            <label for="email">
+                <input type="text" id="email" value=" uw email...">
+            </label>
+
+            <label for="bericht">
+                <textarea wrap="hard" id="bericht"> bericht...</textarea>
+            </label>
+        </div>
+        <button>Verzenden</button>
 
 
+        <div class="col.6" id="info">
 
-            <div class="contents">
+            <svg width="66" height="67" viewBox="0 0 66 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M63.2323 33.2687C63.2323 50.3139 49.7289 64.0374 33.1868 64.0374C16.6446 64.0374 3.1413 50.3139 3.1413 33.2687C3.1413 16.2235 16.6446 2.5 33.1868 2.5C49.7289 2.5 63.2323 16.2235 63.2323 33.2687Z" stroke="#198754" stroke-width="5"/>
+                <path d="M45.7155 27.6034L32.5086 35.8577L19.3017 27.6034V24.3017L32.5086 32.556L45.7155 24.3017M45.7155 21H19.3017C17.4693 21 16 22.4693 16 24.3017V44.112C16 44.9877 16.3479 45.8275 16.9671 46.4467C17.5862 47.0659 18.4261 47.4137 19.3017 47.4137H45.7155C46.5911 47.4137 47.4309 47.0659 48.0501 46.4467C48.6693 45.8275 49.0172 44.9877 49.0172 44.112V24.3017C49.0172 23.426 48.6693 22.5862 48.0501 21.9671C47.4309 21.3479 46.5911 21 45.7155 21Z" fill="#198754"/>
+            </svg>
 
-                <div class="col-md-6">
-                    <div class="contact_form">
-                        <form id="contactform" class="form" action="/">
-                            <input type="text" placeholder="Volledige naam" name="vnaam" id="name" required>
-                            <input type="email" placeholder="E-mail adres" name="email" id="email" required>
-                            <textarea type="text" placeholder="Mededeling" name="mededeling" id="message"
-                                      required></textarea>
-                            <input class="col-5" id="submitbtn" type="submit" value="indienen" required>
-                        </form>
-                    </div>
-                </div>
 
-                <div class="col-md-6">
-                    <div class="contact_info">
+<br><br>
 
-                        <div class="right_contents">
+            <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="33.1868" cy="32.8239" r="30.0455" stroke="#198754" stroke-width="5"/>
+            <path d="M32.6219 16C28.7453 16.0042 25.0289 17.4111 22.2877 19.9123C19.5466 22.4134 18.0046 25.8045 18 29.3416C17.9954 32.2322 19.0302 35.0443 20.9457 37.3466C20.9457 37.3466 21.3445 37.8257 21.4096 37.8948L32.6219 49.9605L43.8395 37.8888C43.898 37.8245 44.2981 37.3466 44.2981 37.3466L44.2995 37.343C46.214 35.0417 47.2483 32.2309 47.2438 29.3416C47.2392 25.8045 45.6972 22.4134 42.9561 19.9123C40.2149 17.4111 36.4985 16.0042 32.6219 16ZM32.6219 34.1931C31.5703 34.1931 30.5423 33.9086 29.6679 33.3755C28.7935 32.8424 28.112 32.0847 27.7096 31.1982C27.3072 30.3117 27.2019 29.3362 27.407 28.3951C27.6122 27.454 28.1186 26.5896 28.8622 25.9111C29.6058 25.2326 30.5532 24.7705 31.5846 24.5833C32.616 24.3962 33.6851 24.4922 34.6566 24.8594C35.6282 25.2266 36.4586 25.8485 37.0429 26.6463C37.6271 27.4441 37.9389 28.3821 37.9389 29.3416C37.9372 30.6278 37.3764 31.8609 36.3797 32.7704C35.3829 33.6799 34.0315 34.1915 32.6219 34.1931Z" fill="#198754"/>
+        </svg>
 
-                            <div class="uppder_content">
-                                <div class="mail_info row align-items-center">
-                                    <div class="col-auto">
-                                        <img src="assets/mail.png" alt="mail icon">
-                                    </div>
-                                    <div class="col">
-                                        <p>info@kidfit.be</p>
-                                    </div>
-                                </div>
-
-                                <div class="loc_info row align-items-center">
-                                    <div class="col-auto">
-                                        <img src="assets/location.png" alt="location icon">
-                                    </div>
-                                    <div class="col">
-                                        <p>Industrielaan 23, 1000 Brussel</p>
-                                    </div>
-
-                                </div>
-
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1260.1429772814795!2d4.3113013229071635!3d50.825867042362205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c42231ff0af5%3A0x6aa71a081901e09!2sBd%20Industriel%2023%2C%201070%20Anderlecht!5e0!3m2!1sen!2sbe!4v1683018671114!5m2!1sen!2sbe"
-                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+            <div id="tekst">
+                <p>contact@kidfit.be</p><br><br><br><br>
+                <p>industrielaan 23, 1000 Brussel</p>
             </div>
         </div>
+
+    </div>
+    <div id="iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1260.1429772814795!2d4.3113013229071635!3d50.825867042362205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c42231ff0af5%3A0x6aa71a081901e09!2sBd%20Industriel%2023%2C%201070%20Anderlecht!5e0!3m2!1sen!2sbe!4v1683018671114!5m2!1sen!2sbe"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </main>
 
-
 <footer>
-
     <div class="container">
         <div class="navbar">
             <nav>
-                <ul id="footer">
-                    <li><p>Copyright Â© 2023 kidfit.be. All Rights Reserved.</p></li>
+                <ul>
+                    <li><p>Copyright © 2023 www.kidfit.be. All Rights Reserved.</p></li>
                 </ul>
             </nav>
             <ul id="socials">
@@ -137,10 +106,6 @@
             </ul>
         </div>
     </div>
-
-
-
 </footer>
-
 </body>
 </html>

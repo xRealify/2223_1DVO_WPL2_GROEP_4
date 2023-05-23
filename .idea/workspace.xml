@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/product2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/diensten.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/diensten.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/productlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/productlist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/winkelmandje.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diensten.html" beforeDir="false" afterPath="$PROJECT_DIR$/diensten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/inlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/productlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winkelmandje.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,15 +33,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Homepage" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,18 +50,33 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OYOGnSFiwIydK8IfsqdofSIbiM" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/12200748/Documents/webstorm/wpl2/2223_1DVO_WPL2_GROEP_4&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12200748\Documents\webstorm\wpl2\2223_1DVO_WPL2_GROEP_4" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebb35d06-7965-4fb5-a47b-23dc70244719" name="Changes" comment="Homepage main fix" />
+      <changelist id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="" />
       <created>1681733955878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -54,19 +88,51 @@
       <workItem from="1682342159884" duration="465000" />
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
-      <workItem from="1683010224249" duration="8065000" />
-      <workItem from="1683029692263" duration="45000" />
-      <workItem from="1683029827584" duration="69000" />
-      <workItem from="1683032772069" duration="1654000" />
+      <workItem from="1682613936047" duration="2051000" />
+      <workItem from="1683095546594" duration="23000" />
+      <workItem from="1683545673655" duration="7146000" />
+      <workItem from="1683555842359" duration="2044000" />
+      <workItem from="1683614379329" duration="7881000" />
+      <workItem from="1683623340066" duration="1630000" />
+      <workItem from="1683626521940" duration="834000" />
+      <workItem from="1683632822769" duration="531000" />
+      <workItem from="1683699823042" duration="37000" />
+      <workItem from="1684218178150" duration="6025000" />
+      <workItem from="1684245447127" duration="467000" />
+      <workItem from="1684246009573" duration="2875000" />
+      <workItem from="1684269344288" duration="35000" />
+      <workItem from="1684326954050" duration="2489000" />
+      <workItem from="1684398950814" duration="3747000" />
+      <workItem from="1684494972604" duration="3237000" />
+      <workItem from="1684505324014" duration="315000" />
+      <workItem from="1684572863141" duration="1021000" />
+      <workItem from="1684574105354" duration="952000" />
+      <workItem from="1684755242396" duration="4644000" />
+      <workItem from="1684777630655" duration="492000" />
+      <workItem from="1684778140561" duration="898000" />
     </task>
-    <task id="LOCAL-00001" summary="Contact Page">
-      <created>1683018937973</created>
+    <task id="LOCAL-00001" summary="Product page 27/04">
+      <created>1682605148182</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1683018937973</updated>
+      <updated>1682605148182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Product page 08/05">
+      <created>1683546689482</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683546689482</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Product page 08/05">
+      <created>1683553291516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683553291516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +149,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Homepage" />
+                        <option value="origin/Log-in" />
                       </list>
                     </value>
                   </entry>
@@ -96,7 +162,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Contact Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact Page" />
+    <MESSAGE value="Product page 27/04" />
+    <MESSAGE value="Product page 08/05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product page 08/05" />
   </component>
 </project>
