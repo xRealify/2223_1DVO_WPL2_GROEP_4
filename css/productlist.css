@@ -1,124 +1,287 @@
-*
-{
-    padding: 0;
+/* algemene css */
+
+* {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #FFF5EA;
+    margin: 0 auto;
+}
+
+/* specifieke css */
+main .nav{
     width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-#ProductPageNav
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
+main .container{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-nav #inlogknop
- {
-     background-color: #FFE8CC;
-     border-radius: 5px;
-     height: 2.5rem;
-     width: 10rem;
-     margin: 1.2rem 11rem;
-     line-height: 0;
-
- }
-
-nav #inlogknop  p
-{
-    color:  #34765E !important;
-    text-align: center;
-    font-size: 17px;
-    padding-top: 1.3rem;
-
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #198754;
 }
 
-nav .col-md-1 p
-{
-    color:  #FFE8CC;
-    padding-top: 1.5rem;
-
-}
-
-div #logo img[src="assets/logo.svg"]
-{
+.logomain {
     width: 60px;
-    height: 55px;
-    padding-top: 1rem;
-    margin-left: 12rem;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+
+nav {
+    flex: 1;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 main
 {
- background-color: #FFE8CC;
-    height: 65rem;
+    margin-top: 25px;
 }
 
-main .col-md-1 p
+.logo
 {
- color: #34765E;
- font-size: 20px;
- padding-top: 3rem;
+    margin-left: 2rem;
+}
+
+
+
+
+main nav ul li
+{
+    background-color: #198754;
+    border: none;
+    margin: 30px;
+    padding: 20px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 17rem;
+    color: #FFF5EA;
+    font-weight: normal;
+}
+
+
+
+main nav ul li p
+{
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
     text-align: center;
-    font-family: "Varela Round", sans-serif;
-}
-
-main .col-md-4 svg
-{
-    width: 60px;
-    height: 60px;
-    margin-top: 2rem;
-    margin-left: 14rem;
-}
-
-main .col-md-3
-{
-    background-color: #34765E;
-    margin-top: 3rem;
-    border-radius: 25px;
-    height: 25rem;
-    width: 20rem;
-}
-
-
-main .col-md-3 h2
-{
-    font-family: "Varela Round", sans-serif;
-    color: #FFE8CC;
-    text-align: center;
-    padding-top: 2rem;
-    font-size: 2rem;
-}
-
-main .col-md-3 p
-{
-    font-family: "Varela Round", sans-serif;
-    color: #FFE8CC;
-    text-align: center;
-    padding-top: 13rem;
-    font-size: 1.8rem;
-}
-
-
-footer
-{
-    font-family: "Varela Round", sans-serif;
-    background-color: #34765E;
-    height: 5rem;
-}
-
-.col-md-6 p
-{
-    color: #FFE8CC;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-div .col-md-1 svg
-{
+    text-decoration: none;
+    font-size: 18px;
+    height: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 4px;
     margin-top: 1.5rem;
 }
 
+img[src="assets/product1.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product2.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product3.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product4.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product5.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+img[src="assets/product6.png"]
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
 
 
 
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #198754;
+    padding: 15px;
+    text-align: center;
+    margin-left: 24rem;
+}
+.head{
+    background-color: #FFF5EA;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #198754;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+button.knop
+{
+    background-color: #FFF5EA;
+    border: none;
+    color: #198754;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    height: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 4px;
+    margin-top: 1.5rem;
+    width: 10rem;
+    margin-right: 0;
+}
+
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+.row-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #198754;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart p {
+    color: #FFF5EA;
+    background-color: #198754;
+    width: 30px;
+    height: 30px;
+    border-radius: 10000px;
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+    margin-left: 8rem;
+    margin-top: -3.5rem;
+}
+
+footer
+{
+    padding-top: 2rem;
+}
+
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+footer ul li p
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 160%;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px)
+{
+
+    img[src="assets/logo.svg"]
+    {
+        display: none;
+    }
+
+    header button
+    {
+        display: none;
+    }
+
+    footer ul li p
+    {
+        width: 100%;
+    }
+
+    main .sidebar
+    {
+        margin-left: -1rem;
+        width: 100%;
+
+    }
+
+
+}
