@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/productlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/productlist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/inlog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/productlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,25 +30,18 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OYOGnSFiwIydK8IfsqdofSIbiM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/12200748/Desktop/back-up",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="" />
+      <changelist id="2811e3bd-c685-4ef6-b087-98f80d026546" name="Changes" comment="" />
       <created>1681733955878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -68,39 +53,7 @@
       <workItem from="1682342159884" duration="465000" />
       <workItem from="1682342637479" duration="365000" />
       <workItem from="1682343014301" duration="100000" />
-      <workItem from="1682613936047" duration="2051000" />
-      <workItem from="1683095546594" duration="23000" />
-      <workItem from="1683545673655" duration="7146000" />
-      <workItem from="1683555842359" duration="2044000" />
-      <workItem from="1683614379329" duration="7881000" />
-      <workItem from="1683623340066" duration="1630000" />
-      <workItem from="1683626521940" duration="834000" />
-      <workItem from="1683632822769" duration="531000" />
-      <workItem from="1683699823042" duration="37000" />
-      <workItem from="1684218178150" duration="6025000" />
     </task>
-    <task id="LOCAL-00001" summary="Product page 27/04">
-      <created>1682605148182</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1682605148182</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Product page 08/05">
-      <created>1683546689482</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1683546689482</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Product page 08/05">
-      <created>1683553291516</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1683553291516</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,10 +81,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Product page 27/04" />
-    <MESSAGE value="Product page 08/05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product page 08/05" />
   </component>
 </project>

@@ -40,7 +40,7 @@ nav .col-md-1 p
 
 }
 
-div #logo img[src="assets/color.svg"]
+div #logo img[src="afbeeldingen/logo.svg"]
 {
     width: 60px;
     height: 55px;
@@ -77,7 +77,7 @@ div .col-md-1 svg
 {
     margin-top: 1.5rem;
 }
-div img[src="assets/Group%2041.png"]
+div img[src="afbeelding/Group%2041.png"]
 {
     width: 350px;
     float: left;
@@ -100,14 +100,11 @@ p{
     bottom: 8rem;
 }
 #vakjes{
-    color: black;
-    align-items: start;
-    width: 200px;
-    height: 200px;
+ color: black;
 }
 #vak1{
     background-color: #34765E;
-    align-items: start;
+
 }
 #vak2{
     background-color: #34765E;
@@ -124,3 +121,4 @@ p{
 #k{
     text-align: right;
 }
+#lm
