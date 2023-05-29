@@ -24,6 +24,17 @@ main .container {
 
 }
 
+main{
+max-width: 1600px;
+margin: 0 auto;
+    margin-top: 30px;
+}
+.row  {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 .navbar {
     width: 100%;
     display: flex;
@@ -70,7 +81,6 @@ nav ul li a {
     color: white;
     font-size: 20px;
 }
-
 .col-1 {
     flex-basis: 60%;
     position: relative;
@@ -89,10 +99,18 @@ nav ul li a {
 }
 .col-2 {
     position: relative;
-    margin-right: 60px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
+div .col-2 {
+margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .illustratie {
@@ -103,10 +121,7 @@ nav ul li a {
 }
 
 .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 0;
+
 }
 
 .diensten {
@@ -152,9 +167,11 @@ footer ul li p
 }
 
 @media screen and (max-width: 800px) {
-
-    img[src="assets/logo.svg"] {
-        display: none;
+    .logomain {
+        width: 60px;
+        cursor: pointer;
+        margin-left: 20px;
+        padding: 10px;
     }
 
     header button {
@@ -181,24 +198,36 @@ footer ul li p
     {
         padding-left: 2rem;
         margin-top: 4rem;
+        width: 80%;
     }
 
     .col-1 h2
     {
-        font-size: 30px;
+        font-size: 35px;
         width: 100%;
         text-align: center;
+        justify-content: center;
+        margin-top: 20px;
         display: flex;
-        padding-right: 15rem;
+        margin: 0 auto;
     }
-
-    h3
+    .col-1 h3
     {
-
+        font-size: 20px;
+        width: 70%;
         text-align: center;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+    .col-1
+    {
+      margin: 0 auto;
+        padding: 0;
         display: flex;
         align-items: center;
-        margin-right: 8rem;
+        flex-direction: column;
+margin-top: 20px;
     }
 
     button
@@ -206,5 +235,30 @@ footer ul li p
         margin-left: 2.5rem;
 
     }
+    .col-2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    div .col-2 img {
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
 }
+@media screen and (max-width: 400px) {
+    .col-1 h3
+    {
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+        display: flex;
+        margin: 0 auto;
 
+    }
+    }

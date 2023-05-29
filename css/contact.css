@@ -182,8 +182,11 @@ footer ul li p
 
 @media screen and (max-width: 800px) {
 
-    img[src="assets/logo.svg"] {
-        display: none;
+    .logomain {
+        width: 60px;
+        cursor: pointer;
+        margin-left: 20px;
+        padding: 10px;
     }
 
     footer
