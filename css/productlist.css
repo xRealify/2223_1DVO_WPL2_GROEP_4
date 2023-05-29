@@ -122,42 +122,54 @@ img[src="assets/product1.png"]
 {
     width: 100px;
     height: 100px;
-    margin-top: 30px;
+    border-radius: 25%;
+    margin-top: 25px;
+    border: 4px solid #FFF5EA;
 }
 
 img[src="assets/product2.png"]
 {
     width: 100px;
     height: 100px;
-    margin-top: 30px;
+    border-radius: 25%;
+    margin-top: 25px;
+    border: 4px solid #FFF5EA;
 }
 
 img[src="assets/product3.png"]
 {
     width: 100px;
     height: 100px;
-    margin-top: 30px;
+    border-radius: 25%;
+    margin-top: 25px;
+    border: 4px solid #FFF5EA;
 }
 
 img[src="assets/product4.png"]
 {
     width: 100px;
     height: 100px;
-    margin-top: 30px;
+    border-radius: 25%;
+    margin-top: 25px;
+    border: 4px solid #FFF5EA;
 }
 
 img[src="assets/product5.png"]
 {
     width: 100px;
     height: 100px;
-    margin-top: 30px;
+    border-radius: 25%;
+    margin-top: 25px;
+    border: 4px solid #FFF5EA;
 }
 
 img[src="assets/product6.png"]
 {
     width: 100px;
     height: 100px;
-    margin-top: 30px;
+    border-radius: 25%;
+    margin-top: 25px;
+    border: 4px solid #FFF5EA;
 }
 
 
@@ -235,6 +247,11 @@ button.knop
     padding-left: 1.2rem;
     margin-left: 8rem;
     margin-top: -3.5rem;
+}
+
+div #cart
+{
+    color: #FFF5EA;
 }
 
 footer
