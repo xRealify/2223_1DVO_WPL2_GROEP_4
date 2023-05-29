@@ -5,25 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b5a63fe-c35b-4e9c-b498-2cc771ac0f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/product2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/diensten.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/diensten.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product4.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product5.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product6.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product6.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/productlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/productlist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/winkelmandje.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diensten.html" beforeDir="false" afterPath="$PROJECT_DIR$/diensten.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/inlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/productpage.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product1.html" beforeDir="false" afterPath="$PROJECT_DIR$/product1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/productlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winkelmandje.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productpage.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/12200748/Documents/webstorm/wpl2/2223_1DVO_WPL2_GROEP_4&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -110,6 +105,15 @@
       <workItem from="1684755242396" duration="4644000" />
       <workItem from="1684777630655" duration="492000" />
       <workItem from="1684778140561" duration="898000" />
+      <workItem from="1684824293739" duration="1121000" />
+      <workItem from="1684831273331" duration="1430000" />
+      <workItem from="1684835003572" duration="1421000" />
+      <workItem from="1684845847956" duration="4418000" />
+      <workItem from="1684858803773" duration="1111000" />
+      <workItem from="1684910043397" duration="29000" />
+      <workItem from="1685360405053" duration="2759000" />
+      <workItem from="1685366859022" duration="1534000" />
+      <workItem from="1685379866291" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="Product page 27/04">
       <created>1682605148182</created>
@@ -132,7 +136,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683553291516</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete website">
+      <created>1684824396331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824396331</updated>
+    </task>
+    <task id="LOCAL-00005" summary="complete website">
+      <created>1684847238403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684847238403</updated>
+    </task>
+    <task id="LOCAL-00006" summary="complete website">
+      <created>1684847249051</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684847249051</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Product page 27/04" />
     <MESSAGE value="Product page 08/05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product page 08/05" />
+    <MESSAGE value="complete website" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete website" />
   </component>
 </project>

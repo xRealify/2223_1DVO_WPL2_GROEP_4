@@ -66,7 +66,7 @@ function displaycart(){
             htmlCartItem1.innerHTML = cart[i].title + "   =   " + cart[i].price + "€";
 
             htmlCart.appendChild(htmlCartItem1);
-            htmlCartItem1.style.backgroundColor = "#FFF5EA";
+            htmlCartItem1.style.border = "5px solid #FFF5EA";
             htmlCartItem1.style.height = "2rem";
             htmlCartItem1.style.borderRadius = "5px";
             htmlCartItem1.style.paddingTop = "0.8rem";
